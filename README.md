@@ -67,6 +67,7 @@ This repository contains weekly programming assignments that progressively build
 - `Menu.java` - Menu implementation
 - `Oop.java` - OOP concepts
 - `Student.java` - Student class
+- `week_7.iml` - IntelliJ module file
 
 ### **Week 8: Advanced Concepts**
 
@@ -77,6 +78,24 @@ This repository contains weekly programming assignments that progressively build
 - `ReversedString.java` - String reversal
 - `StudentTester.java` - Student testing program
 - `ThirdLargest.java` - Find third largest number
+- `README.md` - Week overview and usage notes
+- `week_8.iml` - IntelliJ module file
+
+### **Week 9: Inheritance & Polymorphism**
+
+- `Calculation.java` - Base calculation class
+- `CalculationSecond.java` - Calculation subclass with overrides
+- `CalculationThird.java` - Additional calculation variant
+- `FoodProduct.java` - Food product subclass
+- `HandiCraftProduct.java` - Handicraft product subclass
+- `Inheritance.java` - Inheritance demo driver
+- `NepaliBazar.java` - Market application entry point
+- `NepaliProduct.java` - Generic product base class
+- `Person.java` - Person base class
+- `Polymorphism.java` - Polymorphism examples
+- `Student.java` - Student model (inheritance)
+- `Teacher.java` - Teacher model (inheritance)
+- `TesterInher.java` - Tester for inheritance hierarchies
 
 ## 🚀 How to Run
 
@@ -114,6 +133,7 @@ java WelcomeMessage
 - **Week 6:** Arrays and ArrayLists
 - **Week 7:** Object-Oriented Programming (Classes, Objects, Encapsulation)
 - **Week 8:** Advanced algorithms and data manipulation
+- **Week 9:** Inheritance, polymorphism, and class hierarchies
 
 ## 💡 Key Concepts
 

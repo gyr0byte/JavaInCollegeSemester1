@@ -17,12 +17,12 @@ class Gym {
     public static double getDiscountedFee(double monthlyFee) {
         System.out.println("Is the member senior citizen? (yes/no)");
         Scanner scanner = new Scanner(System.in);
-        String response = scanner.nextLine();
+        String response = scanner.nextLine().trim();
         if (response.equalsIgnoreCase("yes")) {
             return monthlyFee * 0.9; // 10% discount
         }
         System.out.println("Is the member a student? (yes/no)");
-        String response2 = scanner.nextLine();
+        String response2 = scanner.nextLine().trim();
         if (response2.equalsIgnoreCase("yes")) {
             return monthlyFee * 0.85; // 15% discount
         } else {
