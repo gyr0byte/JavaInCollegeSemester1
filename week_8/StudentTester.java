@@ -55,7 +55,7 @@ public class StudentTester {
         System.out.println(student4.isAdult(student4.age));
         System.out.println();
 
-        System.out.println("upadted grade");
+        System.out.println("updated grade");
         student1.updateGrade();
         student2.updateGrade();
         student3.updateGrade();
