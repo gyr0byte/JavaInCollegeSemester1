@@ -97,6 +97,15 @@ This repository contains weekly programming assignments that progressively build
 - `Teacher.java` - Teacher model (inheritance)
 - `TesterInher.java` - Tester for inheritance hierarchies
 
+### **Week 10: Domain Modeling**
+
+- `Bank.java` - Bank driver for banking demo
+- `BankAccount.java` - Bank account model with transactions
+- `BirHospital.java` - Hospital driver for patient demo
+- `Patient.java` - Patient entity used by hospital
+- `Student.java` - Student entity for info demo
+- `StudentInfo.java` - Driver for student information display
+
 ## 🚀 How to Run
 
 ### Prerequisites
@@ -134,6 +143,7 @@ java WelcomeMessage
 - **Week 7:** Object-Oriented Programming (Classes, Objects, Encapsulation)
 - **Week 8:** Advanced algorithms and data manipulation
 - **Week 9:** Inheritance, polymorphism, and class hierarchies
+- **Week 10:** Domain modeling with simple banking, hospital, and student systems
 
 ## 💡 Key Concepts
 
