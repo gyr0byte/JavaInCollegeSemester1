@@ -84,37 +84,23 @@ public class Patient {
         return economicStatus;
     }
     int getAllowedVisitors() {
-        switch (ward) {
-            case "General":
-                return 2;
-            case "ICU":
-                return 1;
-            case "Emergency":
-                return 0;
-            case "Maternity":
-                return 3;
-            default:
-                return 0;
-        }
+        return switch (ward) {
+            case "General" -> 2;
+            case "ICU" -> 1;
+            case "Emergency" -> 0;
+            case "Maternity" -> 3;
+            default -> 0;
+        };
     }
     double calculateTreatmeentCharge(int days) {
         double dailyRate;
-        switch (ward) {
-            case "General":
-                dailyRate = 500.0;
-                break;
-            case "ICU":
-                dailyRate = 2000.0;
-                break;
-            case "Emergency":
-                dailyRate = 1500.0;
-                break;
-            case "Maternity":
-                dailyRate = 800.0;
-                break;
-            default:
-                dailyRate = 0.0;
-        }
+        dailyRate = switch (ward) {
+            case "General" -> 500.0;
+            case "ICU" -> 2000.0;
+            case "Emergency" -> 1500.0;
+            case "Maternity" -> 800.0;
+            default -> 0.0;
+        };
         return dailyRate * days;
     }
     boolean isEligibleForFreeCare(int age) {
