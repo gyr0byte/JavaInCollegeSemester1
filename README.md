@@ -106,6 +106,11 @@ This repository contains weekly programming assignments that progressively build
 - `Student.java` - Student entity for info demo
 - `StudentInfo.java` - Driver for student information display
 
+### **Week 11: Abstract Classes & Interfaces**
+
+- `ShapeCalculation.java` - Shape calculation with abstract classes
+- `TestAbstraction.java` - Test driver for abstraction examples
+
 ## 🚀 How to Run
 
 ### Prerequisites
@@ -144,6 +149,7 @@ java WelcomeMessage
 - **Week 8:** Advanced algorithms and data manipulation
 - **Week 9:** Inheritance, polymorphism, and class hierarchies
 - **Week 10:** Domain modeling with simple banking, hospital, and student systems
+- **Week 11:** Abstract classes and interface concepts
 
 ## 💡 Key Concepts
 
